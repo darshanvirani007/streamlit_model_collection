@@ -3,8 +3,8 @@ import os
 import pandas as pd
 import re
 import distutils
-import PyPDF2
-from PyPDF2 import PdfFileReader
+from PyPDF2 import PdfReader
+
 
 # Positive and negative symptoms lists
 positive_symptoms = [
