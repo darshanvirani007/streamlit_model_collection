@@ -2,6 +2,7 @@ import streamlit as st
 import os
 import pandas as pd
 import re
+import distutils
 from PyPDF2 import PdfFileReader
 
 # Positive and negative symptoms lists
