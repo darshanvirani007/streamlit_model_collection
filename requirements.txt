@@ -1,6 +1,7 @@
 streamlit
 pandas
 numpy
-setuptools>=51.0.0
+setuptools
 wheel
-Cython<3
+Cython
+PyPDF2
