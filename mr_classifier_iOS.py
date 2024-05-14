@@ -4,6 +4,7 @@ import pandas as pd
 import re
 import distutils
 from PyPDF2 import PdfReader
+import json
 
 
 # Positive and negative symptoms lists
@@ -152,6 +153,16 @@ def main():
         classification_result = classify_report(report_text)
         st.subheader("Classification Result:")
         st.write(classification_result)
+
+        # Create JSON response
+        json_response = {
+            "filename": uploaded_file.name,
+            "classification_result": classification_result
+        }
+
+        # Convert to JSON format
+        st.subheader("JSON Response:")
+        st.json(json_response)
 
 if __name__ == "__main__":
     main()
