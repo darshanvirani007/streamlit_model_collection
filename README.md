@@ -67,9 +67,6 @@ Contributions are welcome! If you'd like to suggest improvements or add features
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contact
 For any questions or inquiries, please contact:
 - **Your Name:** Darshan Virani
