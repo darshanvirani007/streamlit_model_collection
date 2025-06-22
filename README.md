@@ -69,7 +69,7 @@ Contributions are welcome! If you'd like to suggest improvements or add features
 
 ## Contact
 For any questions or inquiries, please contact:
-- **Your Name:** Darshan Virani
+- Darshan Virani
 - **Email:** darshanvirani2468@gmail.com
 
 ---
